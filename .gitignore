@@ -1,0 +1,57 @@
+## Ignore build and packaging output
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / ReSharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+**/_ReSharper.Caches/
+.idea/
+
+## VSCode
+.vscode/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+/packages/
+/*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+## User secrets
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+## EF Core Migrations snapshot cache (optional)
+Migrations/*ModelSnapshot.cs
+
+## Rider-specific
+riderModule.iml
+.idea/
+
+## Dotnet generated
+Generated_Code/
+TestResults/
